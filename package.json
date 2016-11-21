@@ -1,0 +1,21 @@
+{
+  "name": "basic0auth",
+  "version": "1.0.0",
+  "description": "basicauth",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hapi": "^15.2.0"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "hapi-auth-basic": "^4.2.0",
+    "hapi-auth-cookie": "^6.1.1",
+    "joi": "^10.0.1"
+  }
+}
