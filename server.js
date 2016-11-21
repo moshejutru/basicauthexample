@@ -26,7 +26,7 @@ const validate = function (request, username, password, callback) {
 };
 
 server.register(Basic, function(err) {
-
+/////////
     if (err) {
         throw err;
     }
